@@ -107,7 +107,7 @@ ul li:not(:last-child) {
 }
 
 
-.overlay {
+.modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -136,4 +136,8 @@ ul li:not(:last-child) {
 
 .modal button:hover {
   background-color: #333;
+}
+
+.post-title {
+  cursor: pointer;
 }
